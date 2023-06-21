@@ -1,0 +1,38 @@
+@media(max-width: 65rem) {
+    .header {
+        flex-direction: column;
+    }
+
+    .logo {
+        font-size: 4rem;
+        transform: translateX(-5%);
+    }
+
+    .logo h1 {
+        font-size: 4rem;
+    }
+
+    .menu {
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .menu li {
+        padding: 3.3rem;
+    }
+
+    .menu li:last-child {
+        transform: translateX(9%);
+    }
+
+    .menu li a {
+        font-size: 4rem;
+        padding: 1.7rem 4rem;
+    }
+
+    .menu li a.btn {
+        font-size: 1.8rem;
+        padding: 1.5rem 2.3rem;
+        margin-top: 5rem;
+    }
+}
